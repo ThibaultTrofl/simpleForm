@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+.bcg-red {
+  background-color: rgba(255, 0, 0, 0.13);
+  border: solid 1px red;
+}
+
+/* -------Form------- */
+main {
+  min-height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.box {
+  margin-top: 50px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 30px;
+}
+.form-box {
+  height: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.custom-input {
+  min-width: 250px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.custom-input > label {
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.custom-input > input {
+  width: 100%;
+  height: 30px;
+  padding-left: 7px;
+  border-radius: 10px;
+}
+.text-alert {
+  height: 10px;
+  padding: 5px;
+  font-size: 10px;
+  color: red;
+}
+
+.form-box > button {
+  min-width: 280px;
+  max-width: 420px;
+
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgba(74, 74, 74, 0.797);
+  border: solid 1px gray;
+  color: white;
+}
+
+.recap-box {
+  padding: 30px;
+  height: fit-content;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+  background-color: lightgray;
+}
+.recap-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.recap-text > p > span {
+  /* padding-left: 5px; */
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.recap-text > h1 {
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.recap-box > button {
+  min-width: 280px;
+  max-width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(74, 74, 74, 0.797);
+  border: solid 1px gray;
+  color: white;
+}
+
+/* -------Footer------- */
+footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-box > p > a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
